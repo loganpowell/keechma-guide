@@ -1,0 +1,28 @@
+{
+  "name": "keechma-guide",
+  "version": "0.0.1",
+  "description": "\"some guides for `cljs` users coming from a JavaScript background\"",
+  "author": "Logan Powell",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/loganpowell/keechma-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/loganpowell/keechma-guide/issues"
+  },
+  "homepage": "https://github.com/loganpowell/keechma-guide#readme",
+  "main": "./src/public/keechma-test.js",
+  "scripts": {
+    "dev": "shadow-cljs watch lib",
+    "release": "shadow-cljs release lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^5.0.1",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "devDependencies": {
+    "shadow-cljs": "^2.6.8"
+  }
+}
